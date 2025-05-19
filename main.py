@@ -10,7 +10,7 @@ import logging
 
 
 # Создание экземпляра бота
-bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
+bot = commands.Bot(command_prefix="/", intents=discord.Intents.all())
 
 logging.basicConfig(level=logging.DEBUG, filename="logs.xml", filemode="w")
 
